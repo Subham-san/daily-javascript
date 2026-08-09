@@ -1,0 +1,47 @@
+body{
+  background-color: rgb(120, 110, 249);
+}
+#h1{
+ color: rgb(0, 0, 0);
+ border: 3px solid white;
+ border-radius: 12px;
+ background-color: rgb(214, 166, 233);
+ width: auto;
+ font-size: 35px;
+ text-align: center;
+ animation-name: slideright;
+ animation-duration: 1s;
+ box-shadow: 3px 3px 5px black;
+}
+@keyframes slideright{
+  from{
+     transform : translatex(100%)
+  }
+}
+div{
+  border: 3px solid white;
+  border-radius: 12px;
+  background-color: rgb(214, 166, 233);
+  font-size: 40px;
+  color: rgb(1, 1, 1);
+  padding: 30px;
+  text-align: center;
+  height: auto;
+  width: auto;
+   animation-name: slideup;
+ animation-duration: 1s;
+  box-shadow: 3px 3px 5px black;
+}
+@keyframes slideup{
+  from{
+     transform : translatey(100%)
+  }
+}
+#submit1{
+ height: 50px;
+ width: 70px;
+}
+#text1{
+  height: 30px;
+  font-size: 30px;
+}
