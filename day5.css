@@ -1,0 +1,20 @@
+body{
+  background-color: black;
+}
+h1{
+  color: rgb(244, 111, 111);
+  font-size: 50px;
+  
+}
+#p1{
+ font-size: 20px;
+ color: rgb(17, 237, 87);
+}
+#p2{
+ font-size: 30px;
+ color: rgb(164, 115, 242);
+}
+.list{
+   font-size: 30px;
+ color: rgb(22, 244, 200);
+}
