@@ -8,7 +8,9 @@ document.getElementById("button").onclick = function () {
     document.getElementById("ans").textContent = `You are eligible`;
   } else if (age < 0) {
     document.getElementById("ans").textContent = `Age cannot be below 0`;
-  } else {
+  } else if(age < 18) {
     document.getElementById("ans").textContent = `You are not eligible`;
-  }
+  } else {
+    document.getElementById("ans").textContent = `this is not age / number`;
 };
+}
