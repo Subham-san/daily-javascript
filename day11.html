@@ -7,7 +7,28 @@
   <link rel="stylesheet" href="day11.css">
 </head>
 <body>
+  <h1>Terms&Conditions - Payments Options</h1>
+  <br>
+  <label for="checkbox" class="checkbox"> <b>Terms and Conditions (Required!)</b>
+    <input type="checkbox" id="checkbox" required>
+  </label>
+  <br><br>
+  <div class="container">
+    <input type="radio" id="visa" name="card" class="card">
+    <label for="visa" class="label">Visa</label>
+    <br>
+    <input type="radio" id="mastercard" name="card" class="card">
+    <label for="mastercard" class="label">master-card</label>
+    <br>
+    <input type="radio" id="paypal" name="card" class="card">
+    <label for="paypal" class="label">paypal</label>
+    <br><br>
+    <button type="button" id="submit">submit</button>
+  </div>
   
+  <p id="result"></p>
+  <p id="payments"></p> 
+
   <script src="day11.js"></script>
 </body>
 </html>

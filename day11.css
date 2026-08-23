@@ -1,0 +1,28 @@
+body{
+  text-align: center;
+  letter-spacing: 1px;
+}
+.checkbox{
+  font-size: 29px;
+}
+#checkbox{
+  height: 29px;
+  width: 40px;
+}
+.card{
+   height: 29px;
+  width: 40px;
+}
+.label{
+  font-size: 40px;
+}
+button{
+   height: 50px;
+  width: 55px;
+}
+.container{
+  display: block;
+  border: 1px solid;
+  border-radius: 12px;
+  padding: 10px;
+}
